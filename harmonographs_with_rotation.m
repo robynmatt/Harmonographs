@@ -4,8 +4,8 @@ function main_pendulum()
     g = 9.81;
 
     % New 'harmonograph' parameters
-    Lx = 2.45;
-    Ly = 9.81;
+    Lx = 67;
+    Ly = 268;
     goLx = g / Lx;
     goLy = g / Ly;
     gammax = 0;
@@ -18,7 +18,7 @@ function main_pendulum()
     dt = 0.001;
     fig_dt = 0.01;
     t0 = 0;
-    t_end = 600;  
+    t_end = 120;  
 
     F = @(t, V) [
         V(2);                       
